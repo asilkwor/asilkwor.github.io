@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/ethnicity.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="writeUp.html">Write Up</a></li>
+        <li><a href="video.html">Video</a></li>
+        
+    </ul>
+
+    <h1 class ="p1" id="p1">All Hate Crimes Crime Ratio (Per 100,000)</h1>
+    <p class = "p2"> Data Source: <a href="https://github.com/emorisse/FBI-Hate-Crime-Statistics/blob/master/2013/table13.csv">Source</a></p>
+    <div class="dropdown">
+        <button class="dropbtn">Toggle Crime</button>
+        <div class="dropdown-content">
+          <a href="index.html">All Hate Crimes</a>
+          <a href="race.html">Race</a>
+          <a href="religion.html".html>Religion</a>
+          <a href="sexual.html">Sexual</a>
+          <a href="ethnicity.html">Ethnicity</a>
+          <a href="disability.html">Disability</a>
+          <a href="gender.html">Gender</a>
+          <a href="genderID.html">Gender Identification</a>
+        </div>
+      </div>
+
+    
+
+    <div class="center-div" id="vis"></div>
+
+    
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
+<script src="d3-legend.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="js/ethnicityScript.js"></script>  
+  
+</body>
+</html>

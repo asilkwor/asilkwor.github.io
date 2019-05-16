@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+<head>
+    <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="writeUp.html">Write Up</a></li>
+        <li><a href="video.html">Video</a></li>
+        
+
+    </ul>
+    <div>
+    <a style="float: right;" href="pdf/writeUp.pdf" download="writeUp">Download the pdf</a> <br>
+	</div>
+<div></div>
+    <p class="paper">
+Andrew Silkworth, Bryant Sundell, Devon Pulley<br>
+Khairi Reda<br>
+N328<br>
+4/21/19<br>
+
+Hate Crime in America<br>
+
+Hate crime in the United States of America is an ugly reality that often times isn’t understood or<br>
+even reported. Our group decided to look into this awful subject matter and see what we could learn about<br>
+the topic. We were able to get our data set from https://github.com/emorisse/FBI-Hate-Crime-Statistics -<br>
+after looking at the data we thought up with 3 questions that we wanted to answer from the data.<br>
+1. Where do the hate crimes happen most often?<br>
+2. What types of hate crimes are reported to the FBI?<br>
+3. Do all states report hate crimes to the FBI?<br>
+With these questions in mind, we wanted a way to visualize our data from the FBI. Using a json<br>
+script for a map of the United States, we then linked the file to D3. This allowed us to develop a map of<br>
+the United States that gave the user mouse over interactions. After that, dove deeper into the data and<br>
+knew we needed to create different categories. These categories were to show the different types of hate<br>
+crimes that are reported across the US. For these numbers, we performed calculations using the data.<br>
+Adding up each attribute and dividing by 100,000 to give each state it’s numeric value per 100k. In order<br>
+to visualize these categories, we used colors for each channel. We choose colors for each attribute and we<br>
+decided on preventing the colors from being biased themselves. We chose blue for the home screen since<br>
+it naturally displays well. Green was chosen for race, orange chosen for religion, purple for sex, red for<br>
+ethnicity, greyscale for disability, purple again for gender due to the inherent relation to sex, and<br>
+greyscale again for gender identification.<br>
+The categories are neatly grouped together under a master drop-down menu on the top right of the<br>
+page. This allows for the user to specifically choose which type of hate crime they wish to display. On the<br>
+
+
+other side of the page we have another menu, this is the navigation of the site. The navigation menu<br>
+allows the user to navigate to the write up and video sections of the website.<br>
+Now that a fully functioning visualization is created – the answers to the previously stated<br>
+questions should start to materialize. The questions were -<br>
+1. Where do the hate crimes happen most often?<br>
+2. What state has the least amount of hate crime reported?<br>
+3. Do all states report hate crimes to the FBI?<br>
+Looking at the map, the answer to the first question can now be answered – Delaware. The smallest state<br>
+of the country reports 15.4214 hate crimes per 100k people. The next question is to discover what state<br>
+has the least amount of hate crime reported. The answer from the data set is Texas, with 1.3668 hate<br>
+crimes reported per 100k. However, there are states that do not report their hate crimes at all to the FBI.<br>
+This gives them a value of 0. Hawaii, New Mexico, North Dakota, South Dakota, North Carolina, South<br>
+Carolina, West Virgina, New Jersey, New York, and New Hampshire all do not report hate crimes to the<br>
+FBI. There is a total of 9 different states that aren’t reporting the hate crimes that take place. As a group,<br>
+we found that to be alarming.<br>
+In closing, using D3 and our data set we were able to visualize hate crime across our country. The<br>
+different types of hate crime and which states are reporting these crimes. Our questions were answered<br>
+through using the visualization. We hope to inspire others to learn more about this topic and help those<br>
+who may be affected by hate crime in the United States of America.<br>
+    </p>
+</div>
+
+
+
+</body>
